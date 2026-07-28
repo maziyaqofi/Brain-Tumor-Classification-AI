@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Dataset
+data/
+
+# Model Files
+models/
+
+# Outputs
+outputs/
+
+# Logs
+*.log
+
+# TensorBoard
+logs/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+
+# Environment Variables
+.env
