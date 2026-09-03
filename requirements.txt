@@ -1,9 +1,9 @@
-numpy
+numpy==1.26.4
 pandas
 matplotlib
-opencv-python
+opencv-python==4.10.0.84
 Pillow
 scikit-learn
-tensorflow
+tensorflow==2.14.0
 jupyter
 notebook
