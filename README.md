@@ -1,5 +1,56 @@
 # Brain Tumor MRI Classification using Deep Learning
 
+## 🌐 Streamlit Web Application
+
+The trained EfficientNetB0 model was deployed as an interactive web application using Streamlit.
+
+The application allows users to:
+
+- Upload an MRI image
+- Classify the MRI into one of four classes
+- View the predicted class and confidence score
+- View class probability distribution
+- Visualize Grad-CAM to provide insight into the image regions influencing the prediction
+
+### 🚀 Live Demo
+
+The application is publicly available through Streamlit Community Cloud.
+
+**Live Demo:** https://mqdoc-brain-tumor-classification-ai.streamlit.app/ 
+
+> The application is intended for educational and research purposes only and is not a medical diagnostic tool.
+
+### 📸 Application Screenshots
+
+#### Main Dashboard
+
+![Main Dashboard](documentation/main-dashboad.png)
+
+The main dashboard provides the entry point for the MRI classification application.
+
+#### MRI Upload — No Tumor
+
+![No Tumor Upload](documentation/notumor-upload.png)
+
+The application allows users to upload an MRI image before running the classification process.
+
+#### Classification Result — No Tumor
+
+![No Tumor Analysis](documentation/notumor-analysis.png)
+
+The application displays the predicted class, confidence score, class probabilities, and Grad-CAM visualization.
+
+#### MRI Upload — Meningioma
+
+![Meningioma Upload](documentation/meningioma-upload.png)
+
+Example of an MRI image uploaded for classification.
+
+#### Classification Result — Meningioma
+
+![Meningioma Analysis](documentation/meningioma-analysis.png)
+
+Example classification result showing the model prediction and supporting visual analysis.
 ## Overview
 
 Brain tumors are abnormal cell growths in the brain that require early detection for effective treatment. This project develops a deep learning model capable of classifying brain MRI images into four categories using Transfer Learning.
