@@ -7,3 +7,5 @@ scikit-learn
 tensorflow==2.14.0
 jupyter
 notebook
+streamlit
+
