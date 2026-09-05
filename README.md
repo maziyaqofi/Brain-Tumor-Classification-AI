@@ -100,7 +100,77 @@ Classes:
 
 ## Project Structure
 
-(project tree)
+## 📁 Project Structure
+
+```text
+Brain-Tumor-Classification-AI/
+│
+├── app/
+│   └── app.py
+│       # Streamlit web application for MRI classification
+│       # Includes prediction, confidence score, class probabilities,
+│       # and Grad-CAM visualization
+│
+├── data/
+│   └── raw/
+│       ├── Training/
+│       │   ├── glioma/
+│       │   ├── meningioma/
+│       │   ├── notumor/
+│       │   └── pituitary/
+│       │
+│       └── Testing/
+│           ├── glioma/
+│           ├── meningioma/
+│           ├── notumor/
+│           └── pituitary/
+│       # MRI dataset used for training and evaluation
+│       # Not included in the GitHub repository
+│
+├── documentation/
+│   ├── main-dashboad.png
+│   ├── notumor-upload.png
+│   ├── notumor-analysis.png
+│   ├── meningioma-upload.png
+│   └── meningioma-analysis.png
+│       # Screenshots of the deployed Streamlit application
+│
+├── docs/
+│   └── project_plan.md
+│       # Project planning and development documentation
+│
+├── models/
+│   └── efficientnetb0_finetuned.h5
+│       # Fine-tuned EfficientNetB0 model used by the application
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_finetuning.ipynb
+│   └── 04_evaluation.ipynb
+│       # Jupyter notebooks for experimentation,
+│       # preprocessing, model training, and evaluation
+│
+├── src/
+│   # Source code and reusable project components
+│
+├── .gitignore
+│   # Files and directories excluded from version control
+│
+├── CHANGELOG.md
+│   # Project development history and changes
+│
+├── README.md
+│   # Project documentation
+│
+├── ROADMAP.md
+│   # Project development roadmap
+│
+├── requirements.txt
+│   # Python dependencies
+│
+└── notes - Brain Tumor Project.docx
+    # Project notes and development references
 
 ---
 
@@ -120,3 +190,8 @@ Classes:
 
 This project is developed for research and educational purposes only.
 It must not be used for medical diagnosis.
+
+---
+
+## Disclaimer
+By MaziyaQofi 2026
