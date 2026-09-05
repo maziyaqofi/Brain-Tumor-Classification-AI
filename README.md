@@ -194,5 +194,5 @@ It must not be used for medical diagnosis.
 
 ---
 
-## Disclaimer
+## Author
 By MaziyaQofi 2026
